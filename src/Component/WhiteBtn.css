@@ -1,0 +1,14 @@
+.white-btn {
+    background-color: #fff;
+    box-shadow: 0 5px 65px -10px rgba(0, 0, 0, .4);
+    padding: 20px 30px;
+    cursor: pointer;
+    color: #3a3a3a;
+    border-radius: 2rem;
+    transition: all .25s ease-in;
+}
+
+.white-btn:hover {
+    background-color: #3a3a3a;
+    color: #fff;
+}

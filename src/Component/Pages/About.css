@@ -1,0 +1,189 @@
+.about .container {
+    background-color: #f2f4f6;
+}
+
+.about .container .img-overlay .img-container {
+    background: url('../../../public/images/sport-shoes-blue-bg.jpg') no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding: 18.75rem 5rem 6.25rem;
+    margin: 0 5rem;
+    border-radius: .75rem;
+}
+
+.about .container .img-overlay .img-container h2 {
+    color: #fff;
+    font-size: 4vw;
+}
+
+.about .container .img-overlay .img-container h5 {
+    color: #fff;
+    font-size: 2.5vw;
+}
+
+.about .container .about-caption {
+    text-align: center;
+    padding: 0 9rem 7.5rem;
+    color: #3a3a3a;
+}
+
+.about .container .about-caption h5 {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.about .container .about-caption h1 {
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 2rem;
+}
+
+.about .container .about-caption .description {
+    font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 3rem;
+    color: #6b6b6b;
+    font-weight: lighter;
+    line-height: 1.5rem;
+}
+
+.album {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.album-1 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 75%, #000 100%), url('../../../public/images/album1.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    width: 33.33%;
+    height: 100%;
+}
+
+.album-2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 75%, #000 100%), url('../../../public/images/album2.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    width: 33.33%;
+    height: 100%;
+}
+
+.album-3 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 75%, #000 100%), url('../../../public/images/album3.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    width: 33.33%;
+    height: 100%;
+}
+
+.album-content {
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+
+.album-content h2 {
+    color: #fff;
+    font-style: italic;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding: 25rem 0 2rem;
+}
+
+.pt {
+    padding-top: 5rem !important;
+}
+
+@media(max-width:992px) {
+    .about .container .head-title {
+        padding: 10rem 4rem;
+    }
+
+    .about .container .head-title h3 {
+        font-size: 8vw;
+    }
+
+    .about .container .about-caption {
+        padding: 0 4.5rem 5rem;
+    }
+
+    .about .container .about-caption .title {
+        font-size: 3em;
+    }
+}
+
+@media(max-width:768px) {
+    .about .container .album {
+        display: block;
+    }
+
+    .about .container .album .album-1,
+    .about .container .album .album-2,
+    .about .container .album .album-3 {
+        width: 100%;
+    }
+
+    .album-content h2 {
+        padding: 25rem 0 2rem;
+    }
+
+    .about .container .about-caption {
+        padding: 0 3rem 5rem;
+        text-align: left;
+    }
+
+    .about .container .about-caption .title {
+        font-size: 2em;
+        margin: 1.5rem 0;
+    }
+
+    .about .container .img-overlay .img-container {
+        margin: 0 1rem;
+        padding: 18.75rem 3rem 6.25rem;
+    }
+
+    .about .container .img-overlay .img-container h2 {
+        font-size: 6vw;
+    }
+
+    .about .container .img-overlay .img-container h5 {
+        color: #fff;
+        font-size: 4.5vw;
+    }
+
+}
+
+@media(max-width:480px) {
+    .about .container .head-title {
+        padding: 7rem 3rem;
+    }
+
+    .about .container .about-caption .sub-title {
+        font-size: 1.2em;
+        margin-bottom: 1rem;
+    }
+
+    .about .container .about-caption .title {
+        font-size: 1.8em;
+        margin: 0 0 1.5rem;
+    }
+
+    .about .container .img-overlay .img-container {
+        margin: 0 1rem;
+        padding: 18.75rem 3rem 6.25rem;
+    }
+
+    .about .container .img-overlay .img-container h2 {
+        font-size: 6vw;
+    }
+
+}

@@ -1,0 +1,209 @@
+.contact .container,
+.contact .container .info {
+    background-color: #f2f4f6;
+}
+
+.contact .container .questions .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0;
+}
+
+.contact .container .questions .content h1 {
+    font-size: 4vw;
+    color: #3a3a3a;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact .container .questions .content .accordin {
+    padding: 5rem 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact .container .questions .content .accordin .container {
+    margin: 0 10px;
+}
+
+.contact .container .info .queries {
+    display: flex;
+    justify-content: center;
+}
+
+.contact .container .info .queries .box-wrapper {
+    padding: 0 5rem;
+}
+
+.contact .container .info .queries .box-wrapper .icon span .fa {
+    color: #2F9EE2;
+    font-size: 3rem;
+    margin-bottom: .75rem;
+    transition: transform .15s ease-in;
+}
+
+.contact .container .info .queries .box-wrapper .icon span .fa:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.contact .container .info .queries .box-wrapper .content span {
+    color: #3a3a3a;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.contact .container .info .queries .box-wrapper .content p {
+    color: #515457fc;
+    font-size: .85rem;
+    margin-top: .5rem;
+}
+
+.contact .container .info .info-contact {
+    display: flex;
+    padding: 5rem 7rem;
+}
+
+.contact .container .info .info-contact .map {
+    width: 600px;
+    height: 400px;
+}
+
+.contact .container .info .info-contact .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contact .container .info .info-contact .info-content {
+    padding: 0 4rem;
+    text-align: left;
+}
+
+.contact .container .info .info-contact .info-content h2 {
+    font-size: 2.5vw;
+    color: #3a3a3a;
+    margin-bottom: 2rem;
+}
+
+.contact .container .info .info-contact .info-content .info-details .title {
+    color: #3a3a3a;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact .container .info .info-contact .info-content .info-details span {
+    font-size: 15px;
+    color: #515457fc;
+    margin-bottom: .75rem;
+    display: block;
+}
+
+@media(max-width:1200px) {
+    .contact .container .info .info-contact .map {
+        width: 500px;
+        height: 400px;
+    }
+
+    .contact .container .info .queries .box-wrapper {
+        padding: 0 3rem;
+    }
+
+    .contact .container .questions .content .accordin {
+        padding: 5rem 3.5rem 0;
+    }
+}
+
+@media(max-width:992px) {
+    .contact .container .info .info-contact {
+        padding: 5rem;
+    }
+
+    .contact .container .info .info-contact .info-content {
+        padding: 0 0 0 2rem;
+    }
+
+    .contact .container .info .info-contact .info-content h2 {
+        font-size: 4vw;
+    }
+
+    .contact .container .info .info-contact .map {
+        width: 400px;
+        height: 400px;
+    }
+
+    .contact .container .info .queries .box-wrapper .icon span .fa {
+        font-size: 2rem;
+    }
+
+    .contact .container .info .queries .box-wrapper .content span {
+        font-size: 1.25rem;
+    }
+
+    .contact .container .info .queries .box-wrapper .content p {
+        font-size: .75rem;
+    }
+
+    .contact .container .questions .content .accordin {
+        display: block;
+        padding: 5rem 7rem 0;
+    }
+}
+
+@media(max-width:768px) {
+    .contact .container .questions .content h1 {
+        font-size: 6vw;
+    }
+
+    .contact .container .questions .content .accordin {
+        padding: 5rem 3rem 0;
+    }
+
+    .contact .container .info .queries {
+        flex-direction: column;
+    }
+
+    .contact .container .info .queries .box-wrapper {
+        padding: 2rem;
+    }
+
+    .contact .container .info .info-contact {
+        padding: 3rem;
+    }
+
+    .question-content {
+        font-size: 1rem;
+    }
+
+    .wrapper .answer-content {
+        font-size: 1rem;
+    }
+
+    .contact .container .info .info-contact {
+        flex-direction: column;
+    }
+
+    .contact .container .info .info-contact .info-content {
+        padding: 0;
+    }
+
+    .contact .container .info .info-contact .map {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .contact .container .info .info-contact .info-content h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media(max-width:480px) {
+    .contact .container .questions .content h1 {
+        font-size: 8vw;
+    }
+
+    .contact .container .questions .content .accordin {
+        display: block;
+        padding: 5rem 0;
+    }
+}

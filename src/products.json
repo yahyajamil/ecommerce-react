@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Air Pro X3 Red",
+        "price": "62.00",
+        "discount": "false",
+        "newPrice": "62.00",
+        "image": "images/sports-shoe.jpg",
+        "image__png": "images/sports-shoe4-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Air Pro X3 Whole Blue",
+        "price": "62.00",
+        "discount": "true",
+        "newPrice": "58.00",
+        "image": "images/sports-shoe1.jpg",
+        "image__png": "images/sports-shoe1.png"
+    },
+    {
+        "id": 3,
+        "name": "Air Pro X3 Blue",
+        "price": "62.00",
+        "discount": "false",
+        "newPrice": "62.00",
+        "image": "images/sports-shoe5.jpg",
+        "image__png":"images/sports-shoe5.png"
+    },
+    {
+        "id": 4,
+        "name": "Air Pro X3 Green",
+        "price": "62.00",
+        "discount": "false",
+        "newPrice": "62.00",
+        "image": "images/sports-shoe3.jpg",
+        "image__png": "images/sports-shoe3.png"
+    },
+    {
+        "id": 5,
+        "name": "Air Pro X3 Aqua",
+        "price": "62.00",
+        "discount": "true",
+        "newPrice": "59.00",
+        "image": "images/sports-shoe4.jpg",
+        "image__png": "images/sports-shoe4-1.png"
+    },
+    {
+        "id": 6,
+        "name": "Air Pro X3 crimson",
+        "price": "62.00",
+        "discount": "true",
+        "newPrice": "60.00",
+        "image": "images/sports-shoe2.jpg",
+        "image__png": "images/sports-shoe2.png"
+    },
+    {
+        "id": 7,
+        "name": "Air Pro X3 Whole Green",
+        "price": "62.00",
+        "discount": "true",
+        "newPrice": "58.00",
+        "image": "images/sports-shoe6.jpg",
+        "image__png": "images/sports-shoe6.png"
+    },
+    {
+        "id": 8,
+        "name": "Air Pro X3 Orange",
+        "price": "62.00",
+        "discount": "true",
+        "newPrice": "60.00",
+        "image": "images/sports-shoe7.jpg",
+        "image__png": "images/sports-shoe3.png"
+    },
+    {
+        "id": 9,
+        "name": "Air Pro X3 Yellow",
+        "price": "62.00",
+        "discount": "true",
+        "newPrice": "60.00",
+        "image": "images/sports-shoe8.jpg",
+        "image__png": "images/sports-shoe3.png"
+    }
+]
